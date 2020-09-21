@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   smallest_value = 200
-  name_hash.each do |name, key|
+  name_hash.each do |key, value|
     if key < 200
       smallest_value = 200
     end
