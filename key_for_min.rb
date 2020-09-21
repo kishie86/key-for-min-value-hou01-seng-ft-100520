@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   total = 0
   smallest_value = 200
   name_hash.each do |key, value|
-    if key == value < 200
+    if key == value += 1 
       #smallest_value 
     end
     smallest_value
